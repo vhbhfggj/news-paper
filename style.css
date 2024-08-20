@@ -1,0 +1,71 @@
+.body {
+    margin: 0;
+}
+h1,h2,h3,p,ul {
+margin: 0;
+padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+text-decoration: none;
+}
+.container {
+    margin: 0;
+    width: 1200px;
+}
+.header {
+    background-color: #aa43a2;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+.header-logo {
+    color: #fec830;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header-link {
+    font-size: 18px;
+    color: black;
+}
+.header-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.header-item:focus,.header-item:hover {
+background-color: white;
+}
+.main {
+    background-color:#fec830;
+    padding: 800px 0;
+}
+.title-wrapper {
+    background-color: white;
+    padding: 25px 0;
+    border-radius: 20px;
+    border: 1px solid grey;
+    box-shadow: 0px 1px 1px RGB(0 0 0/12%), 0px 4px 4px RGB(0 0 0/6%), 1px 4px 6px RGB(0 0 0/16%);
+}
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+.news {
+    background-color: (247,247,247);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid gray;
+    border-radius:20px;
+    padding: 30px;
+    margin-top: 50px;
+}
